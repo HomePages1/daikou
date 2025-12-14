@@ -1,38 +1,127 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <title>オフィス業務代行コラム｜データ入力・事務アウトソーシング</title>
-  <meta name="description" content="オフィス業務代行・データ入力・事務アウトソーシングに関する実務ノウハウを解説。全国対応。">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>オフィス業務代行｜データ入力・管理表作成【全国対応】</title>
+<meta name="description" content="オフィス業務代行なら全国対応。データ入力・Excel管理表作成・PDF変換を即日対応。無料相談受付中。">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="canonical" href="https://example.com/articles/">
-  <link rel="stylesheet" href="../css/style.css">
+<!-- SEO -->
+<link rel="canonical" href="https://homepages1.github.io/daikou/">
+<meta name="robots" content="index,follow">
+
+<!-- OGP -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="オフィス業務代行｜データ入力・管理表作成">
+<meta property="og:description" content="事務作業をオンラインで代行。全国対応・即日見積り。">
+<meta property="og:image" content="assets/og-images/og-home.png">
+<meta property="og:url" content="https://homepages1.github.io/daikou/">
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RKGZ9N056B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RKGZ9N056B');
+</script>
+
+<!-- Google Site Verification -->
+<meta name="google-site-verification" content="YCN6mogq2UeroBWJ_-s9tl2_wnTmbH2IDqX7LLUeDlo">
 </head>
 
 <body>
+<header class="header">
+  <a class="logo" href="index.html">
+    <img src="assets/logo-128.png" alt="ロゴ" width="56" height="56">
+    <div>
+      <div style="font-weight:800">事務業務代行サービス</div>
+      <div style="font-size:13px;color:#6b7280">データ入力・管理表作成を即日対応</div>
+    </div>
+  </a>
+  <nav>
+    <a href="#service">対応業務</a>
+    <a href="#price">料金</a>
+    <a href="#contact">お問い合わせ</a>
+  </nav>
+</header>
+
 <main class="container">
+  <!-- LPメインコンテンツ -->
+  <section>
+    <div class="card">
+      <h1>オフィス業務代行サービス（データ入力・管理表作成・PDF変換）</h1>
+      <p>ExcelやGoogleスプレッドシートの管理表作成、PDF→Excel変換など、煩雑な事務作業をオンラインで代行します。まずはサンプル1〜2ページで無料見積り。</p>
+    </div>
 
-  <h1>オフィス業務代行コラム</h1>
-  <p class="small">事務作業を外注・効率化したい方向けの実践記事</p>
+    <!-- サービス詳細 -->
+    <div id="service" class="card">
+      <h2>対応業務</h2>
+      <ul>
+        <li>データ入力代行（CSV・Excel・システム連携）</li>
+        <li>管理表作成（売上・在庫・KPIダッシュボード）</li>
+        <li>PDF→Excel / CSV変換（OCR対応）</li>
+        <li>名簿入力・アンケート集計</li>
+      </ul>
+    </div>
 
-  <section class="grid">
-    <a class="card" href="office-outsourcing.html">
-      <h2>オフィス業務代行とは？メリット・料金・活用事例</h2>
-      <p>全国対応で依頼できる事務代行サービスを解説</p>
-    </a>
-
-    <a class="card" href="data-entry.html">
-      <h2>データ入力代行の相場と依頼時の注意点</h2>
-      <p>失敗しない外注方法をプロ視点で解説</p>
-    </a>
-
-    <a class="card" href="backoffice-automation.html">
-      <h2>バックオフィス自動化で削減できる業務一覧</h2>
-      <p>Excel・Googleスプレッドシート活用</p>
-    </a>
+    <!-- 料金 -->
+    <div id="price" class="card">
+      <h2>料金表</h2>
+      <table>
+        <tr><th>サービス</th><th>料金目安</th></tr>
+        <tr><td>データ入力（100件）</td><td>5,000円〜</td></tr>
+        <tr><td>管理表作成（1表）</td><td>8,000円〜</td></tr>
+        <tr><td>PDF→Excel変換（1ページ）</td><td>500円〜</td></tr>
+      </table>
+    </div>
   </section>
 
+  <!-- お問い合わせフォーム -->
+  <aside id="contact" class="card">
+    <h2>無料相談・見積り</h2>
+    <form id="leadForm" novalidate>
+      <div class="form-field">
+        <label for="name">お名前（必須）</label>
+        <input id="name" name="name" type="text" required>
+      </div>
+      <div class="form-field">
+        <label for="email">メール（必須）</label>
+        <input id="email" name="email" type="email" required>
+      </div>
+      <div class="form-field">
+        <label for="service">ご希望のサービス</label>
+        <select id="service" name="service">
+          <option>管理表作成</option>
+          <option>データ入力（代行）</option>
+          <option>PDF→Excel / CSV変換</option>
+          <option>月額運用</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label for="message">ご相談内容</label>
+        <textarea id="message" name="message"></textarea>
+      </div>
+      <input type="hidden" id="source" name="source" value="オフィス業務代行LP">
+      <button type="submit" class="cta" id="submitBtn">無料相談を送信</button>
+      <div id="formStatus" class="status"></div>
+    </form>
+  </aside>
 </main>
+
+<footer>
+  <p style="text-align:center;color:#6b7280;font-size:13px;">© <span id="year"></span> データ管理サービス</p>
+</footer>
+
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+<script src="js/firebase-config.js"></script>
+<script src="js/contact.js"></script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
