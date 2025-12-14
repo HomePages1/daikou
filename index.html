@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8"/>
   <title>オフィス業務代行｜データ入力・管理表作成【全国対応】</title>
   <meta name="description" content="オフィス業務代行なら全国対応。データ入力・Excel管理表作成・PDF変換を即日対応。無料相談受付中。">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,11 +14,11 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="オフィス業務代行｜データ入力・管理表作成">
   <meta property="og:description" content="事務作業をオンラインで代行。全国対応・即日見積り。">
-  <meta property="og:image" content="assets/og/og-home.png">
+  <meta property="og:image" content="assets/og-images/og-home.png">
   <meta property="og:url" content="https://homepages1.github.io/daikou/">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RKGZ9N056B"></script>
@@ -32,80 +32,97 @@
   <!-- Search Console -->
   <meta name="google-site-verification" content="YCN6mogq2UeroBWJ_-s9tl2_wnTmbH2IDqX7LLUeDlo">
 </head>
+
 <body>
-  <header>
-    <div class="container">
-      <a href="index.html">
-        <img src="assets/logo-128.png" alt="ロゴ" width="56" height="56">
-      </a>
-      <nav>
-        <a href="#service">対応業務</a>
-        <a href="#price">料金</a>
-        <a href="#contact">お問い合わせ</a>
-      </nav>
-    </div>
+<div class="container">
+  <header class="header">
+    <a class="logo" href="index.html">
+      <img src="assets/logo-128.png" alt="ロゴ" width="56" height="56" style="border-radius:8px">
+      <div>
+        <div style="font-weight:800">事務業務代行サービス</div>
+        <div class="small">データ入力・管理表作成を即日対応で提供</div>
+      </div>
+    </a>
+    <nav>
+      <a href="#service" class="small">対応業務</a>
+      <a href="#price" class="small" style="margin-left:12px">料金</a>
+      <a href="#contact" class="small" style="margin-left:12px">お問い合わせ</a>
+    </nav>
   </header>
 
-  <main class="container">
-    <!-- LP 内容 -->
+  <main style="margin-top:18px;display:grid;grid-template-columns:1fr 420px;gap:24px;align-items:start">
     <section>
-      <h1>オフィス業務代行サービス</h1>
-      <p>データ入力・管理表作成・PDF変換など、オンラインで即日対応します。</p>
+      <div class="card">
+        <span class="badge">即日対応 / 小規模歓迎</span>
+        <h1 style="font-size:28px;margin:12px 0 6px">事務業務代行（データ入力・管理表作成・PDF変換）</h1>
+        <p class="small" style="margin-top:0">Excel/Googleスプレッドシートの自動化・名簿入力・PDF→Excel変換など、煩雑な事務作業をオンラインで代行します。まずはサンプル1〜2ページで無料見積り。</p>
+
+        <div style="margin-top:18px" class="card">
+          <h2 style="margin:0 0 8px">なぜ当社が選ばれるのか</h2>
+          <ul>
+            <li>経験豊富なデータスタッフによる高精度な入力</li>
+            <li>関数・マクロで自動化、二重作業を削減</li>
+            <li>OCR処理や手書き対応可（要相談）</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="margin-top:18px" class="card" id="service">
+        <h2 style="margin-top:0">対応業務</h2>
+        <ul>
+          <li>データ入力代行（CSV・Excel・システム連携）</li>
+          <li>管理表作成（売上・在庫・KPIダッシュボード）</li>
+          <li>PDF→Excel / CSV変換（OCR対応）</li>
+          <li>名簿入力・アンケート集計</li>
+        </ul>
+      </div>
     </section>
 
-    <!-- 料金表 -->
-    <section id="price">
-      <h2>料金プラン</h2>
-      <table>
-        <tr><th>サービス</th><th>料金</th></tr>
-        <tr><td>データ入力</td><td>1件 50円〜</td></tr>
-        <tr><td>管理表作成</td><td>1件 1,000円〜</td></tr>
-        <tr><td>PDF→Excel変換</td><td>1ページ 200円〜</td></tr>
-      </table>
-    </section>
+    <aside class="card" id="contact">
+      <h2 style="margin-top:0">無料相談・見積り（オンライン完結）</h2>
+      <p class="small">必要事項を入力すると、管理ダッシュボードに自動保存されます。管理画面で即確認できます。</p>
 
-    <!-- 記事紹介 -->
-    <section id="articles">
-      <h2>お役立ち記事</h2>
-      <ul>
-        <li><a href="articles/backoffice-automation.html">バックオフィス自動化のポイント</a></li>
-        <li><a href="articles/data-entry.html">データ入力効率化のコツ</a></li>
-        <li><a href="articles/excel-service.html">Excelサービス活用法</a></li>
-        <li><a href="articles/freelance-support.html">フリーランス業務支援</a></li>
-        <li><a href="articles/spreadsheet.html">スプレッドシート自動化</a></li>
-        <li><a href="articles/why-outsourcing.html">オフィス業務代行が選ばれる理由</a></li>
-      </ul>
-    </section>
+      <form id="leadForm" novalidate>
+        <div class="form-field">
+          <label for="name">お名前（必須）</label>
+          <input id="name" name="name" type="text" required autocomplete="name" />
+        </div>
+        <div class="form-field">
+          <label for="email">メール（必須）</label>
+          <input id="email" name="email" type="email" required autocomplete="email" />
+        </div>
+        <div class="form-field">
+          <label for="serviceSelect">ご希望のサービス</label>
+          <select id="serviceSelect" name="service">
+            <option>管理表作成</option>
+            <option>データ入力（代行）</option>
+            <option>PDF→Excel / CSV変換</option>
+            <option>月額運用</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="message">ご相談内容（簡潔に）</label>
+          <textarea id="message" name="message" placeholder="例：Excelで売上管理表を作成したい、名簿1000件をCSV化したいなど"></textarea>
+        </div>
 
-    <!-- お問い合わせフォーム -->
-    <section id="contact">
-      <h2>無料相談・見積り</h2>
-      <form id="leadForm">
-        <input type="text" id="name" name="name" placeholder="お名前" required>
-        <input type="email" id="email" name="email" placeholder="メール" required>
-        <select id="service" name="service">
-          <option>管理表作成</option>
-          <option>データ入力（代行）</option>
-          <option>PDF→Excel / CSV変換</option>
-          <option>月額運用</option>
-        </select>
-        <textarea id="message" name="message" placeholder="ご相談内容" required></textarea>
-        <button type="submit">送信</button>
+        <input type="hidden" id="source" name="source" value="事務業務代行LP" />
+        <button id="submitBtn" type="submit" class="cta">無料相談を送信</button>
+        <div id="formStatus" class="status small" aria-live="polite"></div>
       </form>
-      <div id="formStatus"></div>
-    </section>
+
+      <div class="note">管理画面 URL を共有すれば、チームで受注管理できます。ログインはパスワード1つの簡易管理画面です。</div>
+    </aside>
   </main>
 
-  <footer>
-    <p>© <span id="year"></span> オフィス業務代行サービス</p>
-  </footer>
+  <footer style="margin-top:22px;text-align:center;color:var(--muted);font-size:13px">© <span id="year"></span> データ管理サービス</footer>
+</div>
 
-  <!-- JS -->
-  <script src="js/contact.js"></script>
-  <script src="js/main.js"></script>
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+<!-- Firebase SDK -->
+<script src="js/firebase-config.js"></script>
+<script src="js/contact.js"></script>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
-
